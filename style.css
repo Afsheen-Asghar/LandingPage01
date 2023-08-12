@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+html,body{
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+
+   
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #bfa5ab;
+    display: flex;
+    
+
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+}
+
+#part2{
+    height: 100%;
+    width: 67%;
+     background-color: rgb(26, 151, 160); 
+     background-image: url(https://images.unsplash.com/photo-1604514628550-37477afdf4e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1527&q=80);
+    background-size: cover;
+    background-position: center;
+    }
+    #overlay{
+        height: 100%;
+        width: 100%;
+        background-color:#8b55617c;
+    }
+
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background-color: green; */
+}
+
+#text{
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    /* background-color: red; */
+    top: 30%;
+    left: 6%;
+    transform: translate(0 ,-50);
+
+}
+#text>h1{
+    font-size: 80px ;
+    font-weight:900 ;
+    letter-spacing: 10px;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-transform: uppercase;
+    line-height: 65px;
+    color: #fff;
+}
+
+#small-img{
+    height: 400px;
+    width: 300px;
+    top: 50%;
+    right: 5%;
+    position: absolute;
+    transform: translate(0 , -50%);
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#vertical-text{
+    text-transform: uppercase;
+    position: absolute;
+    /* width: 100%; */
+    transform: rotate(90deg);
+    right: -79%;
+    transform-origin: 0% 0%;
+    top: -2%;
+    
+}
+#vertical-text>h1{
+    font-size: 80px;
+    font-weight: 900;
+      color: transparent;
+    letter-spacing: 8px;
+      font-family: Arial, Helvetica, sans-serif;
+      -webkit-text-stroke-color: white;
+      -webkit-text-stroke-width:1px ;
+      
+
+}
+
+#nav{
+    position: absolute;
+    width: 400px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 8%;
+  
+    top: 5%;
+}
+#nav>img{
+    height: 60px;
+
+}
+#nav>h5{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
